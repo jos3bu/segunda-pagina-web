@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>JOSE BUCHAN</title>
+    <!-- ICONOS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <!-- SLIDER -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+    <!-- STILOS -->
+    <link rel="stylesheet" href="style.css">
+
+
+</head>
+<body>
+<div id="wrapper">
+<!-- BANNER -->
+<div id="banner-wrapper">
+<header>
+    <div class="header-inner">
+        <a href="index.html" id="logo">
+            <img src="img/pics/fazt_logo.png" alt="lodo de empresa">
+        </a>
+        <nav>
+            <a href="a" id="menu-icon">
+                <i class="fa fa-bars"></i>
+            </a>
+            <ul>
+                <li>
+                    <a href="index.html" class="current">Inicio</a>
+                </li>
+                <li>
+                    <a href="#skills">Habilidades</a> 
+                </li>
+                <li>
+                    <a href="#portfolio">Portafolio</a> 
+                </li>
+                <li>
+                    <a href="#services">Servicios</a>
+                </li>
+                <li>
+                    <a href="#contactos">Contactos</a>
+                </li>
+            </ul> 
+        </nav>
+    </div>
+</header>
+<section class="slide-wrap">
+    <ul class="slider1">
+        <li><img src="img/slider/slider1.jpg" alt="slider1"></li>
+        <li><img src="img/slider/slider2.jpg" alt="slider2"></li>
+        <li><img src="img/slider/slider3.jpg" alt="slider3"></li>
+    </ul>
+</section>
+</div>
+</div>
+
+<section class="one-third" id="skills">
+    <div class="icon-wrap">
+        <i class="fa fa-desktop"></i>
+    </div>
+<h3>Diseño web</h3>
+<p>La perfección no es alcanzable, pero si perseguimos la perfección podemos conseguir la excelencia</p>
+</section>
+<section class="one-third" id="skills">
+    <div class="icon-wrap">
+        <i class="fa fa-pen-to-square"></i>
+    </div>
+<h3>Diseño grafico</h3>
+<p>La perfección no es alcanzable, pero si perseguimos la perfección podemos conseguir la excelencia</p>
+</section>
+<section class="one-third" id="skills">
+    <div class="icon-wrap">
+        <i class="fa fa-file-code"></i>
+    </div>
+<h3>Desarrollo web</h3>
+<p>La perfección no es alcanzable, pero si perseguimos la perfección podemos conseguir la excelencia</p>
+</section>
+<div class="clearfix-padding"></div>
+<!--PORTFOLIO-->
+<SEction class="left-col" id="portfolio">
+    <h3>Portafolio</h3>
+    <p>Todos necesitamos en algún momento de nuestra vida palabras de motivación que nos den el empujón que nos falta para arriesgarnos, levantarnos, querernos, cuidarnos, o así de cliché como va a sonar: empezar de cero. 
+    </p>
+</Section>
+<section class="sidebar">
+    <img src="img/pics/fazt_logo.png" alt="">
+</section>
+<div class="clearfix-padding"></div>
+<!-- SERVICIOS -->
+<div class="one-third-padding" id="services">
+    <h3>nuestros servicios uno</h3>
+    <img src="img/pics/image1.png">
+    <p>Persiste, si todo fuera fácil, cualquiera lo lograría.</p>
+</div>
+<div class="one-third-padding" id="services">
+    <h3>nuestros servicios dos</h3>
+    <img src="img/pics/image2.png">
+    <p>Persiste, si todo fuera fácil, cualquiera lo lograría.</p>
+</div>
+<div class="one-third-padding" id="services">
+    <h3>nuestros servicios tres</h3>
+    <img src="img/pics/image3.png">
+    <p>Persiste, si todo fuera fácil, cualquiera lo lograría.</p>
+</div>
+
+<footer>
+    <div class="banner-wrapper">
+        <div class="icon-text">
+            <div class="icon-text-icon">
+
+                <ul class="footer-nav">
+                    <li>
+                        <a href="index.html">Inicio</a>
+                    </li>
+                    <li>
+                        <a href="#skills">Habilidades</a>
+                    </li>
+                    <li>
+                        <a href="#portfolio">Portafolio</a>
+                    </li>
+                    <li>
+                        <a href="#">Nuestro equipo</a>
+                    </li>
+                    <li>
+                        <a href="#footer-second">contactos</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="icon-text-text">
+                <ul class="social">
+                    <li>
+                        <a href="mailto:joo.s3.buchan@gmail.com" target="_blank">
+                            <i class="fa-brands fa-google"></i>
+                        </a>
+                     </li>
+                     <li>
+                        <a href="https://www.facebook.com/profile.php?id=100010649744140" target="_blank">
+                            <i class="fa-brands fa-facebook"></i>
+
+                        </a>
+                     </li>
+                     <li>
+                        <a href="https://www.instagram.com/jo0.s3b" target="_blank">
+                            <i class="fa-brands fa-instagram"></i>
+
+                        </a>
+                        
+                    </li>
+                </ul>
+
+            </div>
+
+        </div>
+
+    </div>
+</footer>
+<footer class="footer-second">
+    <p>
+        &copy; <a href="https://www.instagram.com/jo0.s3b" target="_blank">JOSE BUCHAN</a>
+    </p>
+
+</footer>
+
+<!-- SCRIPTS -->
+<script>
+ $(document).ready(function(){
+    $('.slider1').bxSlider({
+        mode:'fade'
+    })
+    $('.slider2').bxSlider({
+        mode:'fade'
+    })
+    $('.slider3').bxSlider({
+        mode:'fade'
+    })
+ })
+</script>
+</body>
+
+</html>
